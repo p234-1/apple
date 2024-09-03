@@ -1,6 +1,57 @@
-<h1>hello work<h1>
-<h1>h<h1>
-<h2>he<h2>
-<h3>hello<h3>
-<h4>hello work<h4>
-<h5>work<h5>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+        }
+        .tup{
+            padding-left: 20px;
+        }
+        img{
+            width: 250px;
+            text-align: center;
+            border-radius: 10% ;
+        }
+        .tup>div{
+            width: 270px;
+            margin: 10px;
+            border-radius: 10% ;
+            padding-left: 20px;
+            padding-top: 20px;
+            background-color: rgb(244, 235, 235);
+        }
+        span{
+            color: brown;
+        }
+        .tup>div:hover{
+            transform: scale(1.1);
+            box-shadow:10px 10px 10px rgba(0, 0, 0, 2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tup">
+        <h3>校园风光</h3>       
+            <div>
+                <img src="./image/img1.jpg" alt="">
+                <p>木棉花1</p>
+                <span>点击次数：24240次</span>
+            </div>
+        <div>
+            <img src="./image/img2.jpg" alt="">
+            <p>木棉花2</p>
+            <span>点击次数：24245次</span>
+        </div>
+        <div>
+            <img src="./image/img3.jpg" alt="">
+            <p>木棉花3</p>
+            <span>点击次数：24244次</span>
+        </div>
+    </div>
+</body>
+</html>
